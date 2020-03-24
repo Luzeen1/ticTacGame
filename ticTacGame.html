@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" type="text/css" href="ticTacCSS.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     
+
+</head>
+<body>
+    
+    <div class="container-fluid text-center"id="box">
+        <header>
+          <h1>Tic Tac Toe</h1>
+    </header>
+      <br>
+      <div id="message"></div>
+        <ul id="gameBoard">
+          <li class="tic"id="0">?</li>
+          <li class="tic"id="1">?</li>
+          <li class="tic"id="2">?</li>
+          <li class="tic"id="3">?</li>
+          <li class="tic"id="4">?</li>
+          <li class="tic"id="5">?</li>
+          <li class="tic"id="6">?</li>
+          <li class="tic"id="7">?</li>
+          <li class="tic"id="8">?</li>
+        </ul>
+        <div class="clearfix"></div>
+      <footer>
+        <h2 class="game--status"></h2>
+        <button id="reset" class="game--restart">Play Again</button>
+      </footer>
+      </div>
+
+      <div id="turnsBoardUpdates" calss="x"></div><br><br>
+
+      <div id="round"></div>
+
+  <div id="firstPlayer" class="x"> Player 1 - X </div><br><br>
+
+  <div id="secondPlayer" class="o"> Player 2 - O </div>
+
+  <div>
+    <table id="scoreTable" border="1">
+      <caption id="tableTitle"> > Score < </caption><br><br>
+      <tr>
+        <th>#</th>
+        <th id="xScore">X Player</th>
+        <th id="oScore">O Player</th>
+      </tr>
+      <tbody>
+        <tr id="row1" class="row"></tr>
+        <tr id="row2" class="row"></tr>
+        <tr id="row3" class="row"></tr>
+        <tr id="row4" class="row"></tr>
+        <tr id="row5" class="row"></tr>
+
+      </tbody>
+
+    </table>
+    <div id="finalResult"></div>
+
+  </div>
+
+
+
+
+      <script src="ticTacGameJS.js"></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,145 @@
+body{
+    background: #212121;
+    color: #666;
+  }
+  h1{
+    text-align: center;
+    color:whitesmoke;
+    background-color: black;
+    font-size: 45px;
+    font-family: Impact, Charcoal, sans-serif;
+    top:100px;
+  }
+  .clearfix{
+    clear: both;
+  }
+  #box{
+    width: 350px;
+    overflow: auto;
+    margin: 200px auto;
+    background: #666;
+    padding-bottom: 40px;
+    border-radius: 10px;
+  }
+  #message{
+    background: #333;
+    color: #fff;
+  }
+  #gameBoard li{
+    float: left;
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    font-size: 50px;
+    background: #333;
+    color: #ccc;
+    list-style: none;
+    text-align: center;
+    border-radius: 5px;
+    font-family: cursive;
+  }
+  #gameBoard li:hover, #reset:hover{
+    cursor: pointer;
+    background: #000;
+  }
+  #reset{
+    border: 0;
+    background:burlywood;
+    color: #fff;
+    width: 70%;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: cursive;
+  }
+  .o{
+    color:#c66d7e    !important;
+    font-weight: bold;
+    font-family: cursive;
+    
+
+  }
+  .x{
+    color:CadetBlue!important;
+    font-weight: bold;
+    font-family: cursive;
+
+  }
+  footer{
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+  }
+  #firstPlayer{
+
+    position: absolute;
+    left :1200px;
+    top:440px;
+    font-size: 30px;
+  }
+  #secondPlayer{
+    position: absolute;
+    left :1200px;
+    top:500px;
+    font-size: 30px;
+  }
+
+  #turnsBoardUpdates{
+      position: absolute;
+      left:1200px;
+      top:250px;
+      font-weight: bold;
+      color: white;
+      font-size: 35px;
+      font-family: Impact, Charcoal, sans-serif;
+
+  }
+
+  #round{
+      position: absolute;
+      left: 1200px;
+      top:360px;
+      font-weight: bold;
+      font-size: 35px;
+      color:white;
+      font-family: cursive;
+      background-color: black;
+
+
+  }
+ 
+  .drawClass{
+      color:Plum!important;
+  }
+  
+  #scoreTable{
+      position: absolute;
+      left:1600px;
+      top:360px;
+      font-size: 30px;
+      font-weight: bold;
+      color: PapayaWhip;
+      row-gap: 1em;
+      font-family: cursive;
+      background-color: black;
+
+  }
+#finalResult{
+    position: absolute;
+    left: 1600px;
+    top:800px;
+    font-size: 35px;
+    font-weight: bolder;
+    color: blanchedalmond;
+    background-color: black;
+}
+
+
+
+  #xScore{
+font-size: 25px;
+  }
+  #oScore{
+    font-size: 25px;
+  }
